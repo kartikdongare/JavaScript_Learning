@@ -10,12 +10,14 @@
            window.localStorage.setItem("Amar","pune");
            window.localStorage.setItem("Nikhil","Vita");
            window.localStorage.setItem("Ketan","jath");
+           console.log(localStorage);
+           
+           console.log(window.localStorage.removeItem("Ketan"));
+           console.log("Using remove method ",localStorage);
 
-           console.log("==================Remove local storage value==================");
-           window.localStorage.removeItem("Ketan");
-
-           console.log(window.localStorage.getItem("Kartik"));
-        //    console.log(window.localStorage.clear());
+           console.log("using getItem method:-",window.localStorage.getItem("Kartik"));
+           console.log("using length",window.localStorage.length);
+          console.log("using clear method:-",window.localStorage.clear());
         </script>
     </body>
 </html>
