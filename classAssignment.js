@@ -23,7 +23,7 @@ for (const element of array_employee) {
         console.log(`Employee Name:-${element.emp_name} and Company Name:-${element.emp_company}`);
     }
 }
-console.log("----------------------2nd--------------------------");
+console.log("-------------------------2nd---------------------------");
 for (const element of array_employee) {
     if(element.emp_dept==="Finance")
     {
@@ -32,7 +32,7 @@ for (const element of array_employee) {
 }
 console.log("---------------------3rd-----------------------------------");
 for (const element1 of array_employee) {
-    if(element1.emp_name.startsWith("R",0))
+    if(element1.emp_name.startsWith("R"))
     {
        console.log("Employee Details:",element1);
     }
