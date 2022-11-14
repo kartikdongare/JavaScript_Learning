@@ -8,7 +8,7 @@ function reverseString(value) {
     while(index >=0 );
     return res;
 }
-var result=reverseString("Hard work alreways pays back");
+var result=reverseString("Hard work always pays back");
 console.log(`before the string:-"Hard work alreways pays back"`);
 console.log(`after the string:-${result}`);
 console.log("========================================");
